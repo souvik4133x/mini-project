@@ -1,0 +1,618 @@
+.text-size-20, .text-xxl-size-20, .text-size-25, .text-xxl-size-25,.text-size-30, .text-xxl-size-30,.text-size-40, .text-xxl-size-40,.text-size-50, .text-xxl-size-50, .text-size-60, .text-xxl-size-60,.text-size-70, .text-xxl-size-70, .text-size-80, .text-xxl-size-80, .text-size-90, .text-xxl-size-90, .text-size-100, .text-xxl-size-100 {line-height: 1.4;}
+.text-size-20, .text-xxl-size-20 {font-size: 20px !important;}
+.text-size-25, .text-xxl-size-25 {font-size: 25px !important;}
+.text-size-30, .text-xxl-size-30 {font-size: 30px !important;}
+.text-size-40, .text-xxl-size-40 {font-size: 40px !important;}
+.text-size-50, .text-xxl-size-50 {font-size: 50px !important;}
+.text-size-60, .text-xxl-size-60 {font-size: 60px !important;}
+.text-size-70, .text-xxl-size-70 {font-size: 70px !important;}
+.text-size-80, .text-xxl-size-80 {font-size: 80px !important;}
+.text-size-90, .text-xxl-size-90 {font-size: 90px !important;}
+.text-size-100, .text-xxl-size-100 {font-size: 100px !important;}                                                                                                                
+.background-green .section-title:after, .primary-color-green .background-primary .section-title:after {color: #fff;}
+.text-thin {font-weight: 300;}
+b, strong, .text-strong {font-weight: 700;}
+.text-extra-strong {font-weight: 800;}
+blockquote::before {
+  color: #e0e0e0;
+  content: "“";
+  display: block;
+  float: left;
+  font-family: georgia;
+  font-size: 80px;
+  height: 30px;
+  left: -40px;
+  position: relative;
+  top: -20px;
+  width: 0;
+}
+blockquote {
+  border: 0;
+  font-size: 1rem;
+  padding: 0 0 0 40px;
+}
+a.text-tag:link {
+  border: 1px solid #e5e5e5;
+  display: inline-block;
+  float: left;
+  font-size: 0.75rem;
+  margin: 1px 2px 1px 0;
+  padding: 6px 9px;
+}
+a.text-tag:link:hover {
+  background: #002633 none repeat scroll 0 0;
+  border: 1px solid #002633;
+  color: #fff;
+  transition: all 0.20s linear 0s;
+  -o-transition: all 0.20s linear 0s;
+  -ms-transition: all 0.20s linear 0s;
+  -moz-transition: all 0.20s linear 0s;
+  -webkit-transition: all 0.20s linear 0s;
+}
+ul.text-list, ol.text-list {
+  font-size: 0.85rem;
+  line-height: 1.8rem;
+  padding: 0 16px;
+}
+ul.text-list ul, ol.text-list ol {
+  padding: 0 14px;
+}
+iframe {
+  display: block;
+  margin: 0;
+}
+/* Backgrounds */
+.background-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background-white-hightlight .top-nav .active-item > a, .background-white-hightlight .top-nav li a:hover, .background-white-hightlight .aside-nav li a:hover, 
+.background-white-hightlight .aside-nav > ul > li.active-item > a:link, .background-white-hightlight .aside-nav > ul > li.active-item > a:visited,
+.primary-color-white .background-primary-hightlight .top-nav .active-item > a, .primary-color-white .background-primary-hightlight .top-nav li a:hover, .primary-color-white .background-primary-hightlight .aside-nav li a:hover, 
+.primary-color-white .background-primary-hightlight .aside-nav > ul > li.active-item > a:link, .primary-color-white .background-primary-hightlight .aside-nav > ul > li.active-item > a:visited {
+  background: #fff none repeat scroll 0 0;
+  color: #002633;
+}
+.background-red-hightlight .top-nav .active-item > a, .background-red-hightlight .top-nav li a:hover, .background-red-hightlight .aside-nav li a:hover, 
+.background-red-hightlight .aside-nav > ul > li.active-item > a:link, .background-red-hightlight .aside-nav > ul > li.active-item > a:visited,
+.primary-color-red .background-primary-hightlight .top-nav .active-item > a, .primary-color-red .background-primary-hightlight .top-nav li a:hover, .primary-color-red .background-primary-hightlight .aside-nav li a:hover, 
+.primary-color-red .background-primary-hightlight .aside-nav > ul > li.active-item > a:link, .primary-color-red .background-primary-hightlight .aside-nav > ul > li.active-item > a:visited {
+  background: #C81010 none repeat scroll 0 0;
+  color: #fff;
+}
+.background-blue-hightlight .top-nav .active-item > a, .background-blue-hightlight .top-nav li a:hover, .background-blue-hightlight .aside-nav li a:hover, 
+.background-blue-hightlight .aside-nav > ul > li.active-item > a:link, .background-blue-hightlight .aside-nav > ul > li.active-item > a:visited,
+.primary-color-blue .background-primary-hightlight .top-nav .active-item > a, .primary-color-blue .background-primary-hightlight .top-nav li a:hover, .primary-color-blue .background-primary-hightlight .aside-nav li a:hover, 
+.primary-color-blue .background-primary-hightlight .aside-nav > ul > li.active-item > a:link, .primary-color-blue .background-primary-hightlight .aside-nav > ul > li.active-item > a:visited {
+  background: #005881 none repeat scroll 0 0;
+  color: #fff;
+} 
+.background-aqua-hightlight .top-nav .active-item > a, .background-aqua-hightlight .top-nav li a:hover, .background-aqua-hightlight .aside-nav li a:hover, 
+.background-aqua-hightlight .aside-nav > ul > li.active-item > a:link, .background-aqua-hightlight .aside-nav > ul > li.active-item > a:visited,
+.primary-color-aqua .background-primary-hightlight .top-nav .active-item > a, .primary-color-aqua .background-primary-hightlight .top-nav li a:hover, .primary-color-aqua .background-primary-hightlight .aside-nav li a:hover, 
+.primary-color-aqua .background-primary-hightlight .aside-nav > ul > li.active-item > a:link, .primary-color-aqua .background-primary-hightlight .aside-nav > ul > li.active-item > a:visited {
+  background: #00B5A6 none repeat scroll 0 0;
+  color: #fff;
+}
+.background-dark-hightlight .top-nav .active-item > a, .background-dark-hightlight .top-nav li a:hover, .background-dark-hightlight .aside-nav li a:hover, 
+.background-dark-hightlight .aside-nav > ul > li.active-item > a:link, .background-dark-hightlight .aside-nav > ul > li.active-item > a:visited,
+.primary-color-dark .background-primary-hightlight .top-nav .active-item > a, .primary-color-dark .background-primary-hightlight .top-nav li a:hover, .primary-color-dark .background-primary-hightlight .aside-nav li a:hover, 
+.primary-color-dark .background-primary-hightlight .aside-nav > ul > li.active-item > a:link, .primary-color-dark .background-primary-hightlight .aside-nav > ul > li.active-item > a:visited {
+  background: #002633 none repeat scroll 0 0;
+  color: #fff;
+}
+.background-none {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0!important;
+  border: 0;
+}
+
+/* Font colors */
+.background-white, .background-white p, a.background-white, .background-white a, .background-white a:link, .background-white a:visited, .background-white a:hover, .background-white a:active {
+  color: #777;
+} 
+.background-dark, .background-dark p, a.background-dark, a.background-dark:visited, a.background-dark:link, .background-dark a, .background-dark a:link, .background-dark a:visited, .background-dark a:hover, .background-dark a:active,
+.primary-color-dark .background-primary, .primary-color-dark .background-primary p, .primary-color-dark a.background-primary, .primary-color-dark a.background-primary:visited, .primary-color-dark a.background-primary:link, .primary-color-dark a.background-primary:visited, .primary-color-dark .background-primary a, .primary-color-dark .background-primary a:link, .primary-color-dark .background-primary a:visited, .primary-color-dark .background-primary a:hover, .primary-color-dark .background-primary a:active {
+  color: #7697A2;
+}
+.background-white h1, .background-white h2, .background-white h3, .background-white h4, .background-white h5, .background-white h6,
+.background-white .h1, .background-white .h2, .background-white .h3, .background-white .h4, .background-white .h5, .background-white .h6, 
+.primary-color-white .background-primary h1, .primary-color-white .background-primary h2, .primary-color-white .background-primary h3, .primary-color-white .background-primary h4, .primary-color-white .background-primary h5, .primary-color-white .background-primary h6,
+.primary-color-white .background-primary .h1, .primary-color-white .background-primary .h2, .primary-color-white .background-primary .h3, .primary-color-white .background-primary .h4, .primary-color-white .background-primary .h5, .primary-color-white .background-primary .h6 {
+  color: #002633;
+} 
+.image-hover-overlay-content *,
+.background-orange, .background-orange p, a.background-orange, a.background-orange:visited, a.background-orange:link, .background-orange a, .background-orange a:link, .background-orange a:visited, .background-orange a:hover, .background-orange a:active,
+.primary-color-orange .background-primary, .primary-color-orange .background-primary p, .primary-color-orange a.background-primary, .primary-color-orange a.background-primary:visited, .primary-color-orange a.background-primary:link, .primary-color-orange .background-primary a, .primary-color-orange .background-primary a:link, .primary-color-orange .background-primary a:visited, .primary-color-orange .background-primary a:hover, .primary-color-orange .background-primary a:active,
+.background-red, .background-red p, a.background-red, a.background-red:visited, a.background-red:link, .background-red a, .background-red a:link, .background-red a:visited, .background-red a:hover, .background-red a:active,
+.primary-color-red .background-primary, .primary-color-red .background-primary p, .primary-color-red a.background-primary, .primary-color-red a.background-primary:visited, .primary-color-red a.background-primary:link, .primary-color-red .background-primary a, .primary-color-red .background-primary a:link, .primary-color-red .background-primary a:visited, .primary-color-red .background-primary a:hover, .primary-color-red .background-primary a:active,
+.background-blue, .background-blue p, a.background-blue, a.background-blue:visited, a.background-blue:link, .background-blue a, .background-blue a:link, .background-blue a:visited, .background-blue a:hover, .background-blue a:active,
+.primary-color-blue .background-primary, .primary-color-blue .background-primary p, .primary-color-blue a.background-primary, .primary-color-blue a.background-primary:visited, .primary-color-blue a.background-primary:link, .primary-color-blue .background-primary a, .primary-color-blue .background-primary a:link, .primary-color-blue .background-primary a:visited, .primary-color-blue .background-primary a:hover, .primary-color-blue .background-primary a:active,
+.background-aqua, .background-aqua p, a.background-aqua, a.background-aqua:visited, a.background-aqua:link, .background-aqua a, .background-aqua a:link, .background-aqua a:visited, .background-aqua a:hover, .background-aqua a:active, 
+.primary-color-aqua .background-primary, .primary-color-aqua .background-primary p, .primary-color-aqua a.background-primary, .primary-color-aqua a.background-primary:visited, .primary-color-aqua a.background-primary:link, .primary-color-aqua .background-primary a, .primary-color-aqua .background-primary a:link, .primary-color-aqua .background-primary a:visited, .primary-color-aqua .background-primary a:hover, .primary-color-aqua .background-primary a:active {
+  color: rgba(255,255,255, 0.75);
+}
+.background-dark h1, .background-dark h2, .background-dark h3, .background-dark h4, .background-dark h5, .background-dark h6,
+.background-dark .h1, .background-dark .h2, .background-dark .h3, .background-dark .h4, .background-dark .h5, .background-dark .h6, 
+.primary-color-dark .background-primary h1, .primary-color-dark .background-primary h2, .primary-color-dark .background-primary h3, .primary-color-dark .background-primary h4, .primary-color-dark .background-primary h5, .primary-color-dark .background-primary h6,
+.primary-color-dark .background-primary .h1, .primary-color-dark .background-primary .h2, .primary-color-dark .background-primary .h3, .primary-color-dark .background-primary .h4, .primary-color-dark .background-primary .h5, .primary-color-dark .background-primary .h6, 
+.background-orange h1, .background-orange h2, .background-orange h3, .background-orange h4, .background-orange h5, .background-orange h6,
+.background-orange .h1, .background-orange .h2, .background-orange .h3, .background-orange .h4, .background-orange .h5, .background-orange .h6,
+.primary-color-orange .background-primary h1, .primary-color-orange .background-primary h2, .primary-color-orange .background-primary h3, .primary-color-orange .background-primary h4, .primary-color-orange .background-primary h5, .primary-color-orange .background-primary h6,
+.primary-color-orange .background-primary .h1, .primary-color-orange .background-primary .h2, .primary-color-orange .background-primary .h3, .primary-color-orange .background-primary .h4, .primary-color-orange .background-primary .h5, .primary-color-orange .background-primary .h6, 
+.background-red h1, .background-red h2, .background-red h3, .background-red h4, .background-red h5, .background-red h6,
+.background-red .h1, .background-red .h2, .background-red .h3, .background-red .h4, .background-red .h5, .background-red .h6,
+.primary-color-red .background-primary h1, .primary-color-red .background-primary h2, .primary-color-red .background-primary h3, .primary-color-red .background-primary h4, .primary-color-red .background-primary h5, .primary-color-red .background-primary h6,
+.primary-color-red .background-primary .h1, .primary-color-red .background-primary .h2, .primary-color-red .background-primary .h3, .primary-color-red .background-primary .h4, .primary-color-red .background-primary .h5, .primary-color-red .background-primary .h6, 
+.background-blue h1, .background-blue h2, .background-blue h3, .background-blue h4, .background-blue h5, .background-blue h6,
+.background-blue .h1, .background-blue .h2, .background-blue .h3, .background-blue .h4, .background-blue .h5, .background-blue .h6,
+.primary-color-blue .background-primary h1, .primary-color-blue .background-primary h2, .primary-color-blue .background-primary h3, .primary-color-blue .background-primary h4, .primary-color-blue .background-primary h5, .primary-color-blue .background-primary h6,
+.primary-color-blue .background-primary .h1, .primary-color-blue .background-primary .h2, .primary-color-blue .background-primary .h3, .primary-color-blue .background-primary .h4, .primary-color-blue .background-primary .h5, .primary-color-blue .background-primary .h6, 
+.background-aqua h1, .background-aqua h2, .background-aqua h3, .background-aqua h4, .background-aqua h5, .background-aqua h6,
+.background-aqua .h1, .background-aqua .h2, .background-aqua .h3, .background-aqua .h4, .background-aqua .h5, .background-aqua .h6,
+.primary-color-aqua .background-primary h1, .primary-color-aqua .background-primary h2, .primary-color-aqua .background-primary h3, .primary-color-aqua .background-primary h4, .primary-color-aqua .background-primary h5, .primary-color-aqua .background-primary h6,
+.primary-color-aqua .background-primary .h1, .primary-color-aqua .background-primary .h2, .primary-color-aqua .background-primary .h3, .primary-color-aqua .background-primary .h4, .primary-color-aqua .background-primary .h5, .primary-color-aqua .background-primary .h6 {
+  color: #fff;
+}
+.text-white, .text-white *, .primary-color-white .text-primary, .primary-color-white .text-primary * {
+  color: #fff !important;
+}
+.text-orange, .text-orange *, .primary-color-orange .text-primary, .primary-color-orange .text-primary * {
+  color: #E4A600 !important;
+}
+.text-red, .text-red *, .primary-color-red .text-primary, .primary-color-red .text-primary * {
+  color: #C81010 !important;
+}
+.text-blue, .text-blue *, .primary-color-blue .text-primary, .primary-color-blue .text-primary * {
+  color: #005881 !important;
+}
+.text-aqua, .text-aqua *, .primary-color-aqua .text-primary, .primary-color-aqua .text-primary * {
+  color: #00B5A6 !important;
+}
+.text-dark, .text-dark *, .primary-color-dark .text-primary, .primary-color-dark .text-primary * {
+  color: #002633 !important;
+} 
+.text-primary-hover, .text-white-hover, .text-yellow-hover, .text-orange-hover, .text-red-hover, .text-pink-hover, .text-purple, .text-blue-hover, .text-light-blue, .text-aqua-hover, .text-green-hover, .text-dark-hover {
+  transition: color 0.20s linear 0s;
+  -o-transition: color 0.20s linear 0s;
+  -ms-transition: color 0.20s linear 0s;
+  -moz-transition: color 0.20s linear 0s;
+  -webkit-transition: color 0.20s linear 0s;
+}
+.text-white-hover:hover, .primary-color-white .text-primary-hover:hover {
+  color: #fff !important;
+}
+.text-yellow-hover:hover, .primary-color-yellow .text-primary-hover:hover {
+  color: #F1D529 !important;
+}
+.text-red-hover:hover, .primary-color-red .text-primary-hover:hover {
+  color: #C81010 !important;
+}
+.text-blue-hover:hover, .primary-color-blue .text-primary-hover:hover {
+  color: #005881 !important;
+}
+.text-aqua-hover:hover, .primary-color-aqua .text-primary-hover:hover {
+  color: #00B5A6 !important;
+}
+.text-dark-hover:hover, .primary-color-dark .text-primary-hover:hover {
+  color: #002633 !important;
+} 
+
+/* Background Colors */
+.background-white, .primary-color-white .background-primary {
+  background-color: #fff !important;
+}
+.background-red, .primary-color-red .background-primary {
+  background-color: #C81010 !important;
+}
+.background-blue, .primary-color-blue .background-primary {
+  background-color: #005881 !important;
+}
+.background-aqua, .primary-color-aqua .background-primary {
+  background-color: #00B5A6 !important;
+}
+.background-dark, .primary-color-dark .background-primary {
+  background-color: #002633 !important; 
+}
+/* Containers */
+.section  { 
+  padding: 6rem 1.25rem;
+}
+.section-small-padding  { 
+  padding: 2.5rem 1.25rem;
+}
+.section-top-padding  { 
+  padding: 6rem 1.25rem 0  1.25rem;
+}
+.section-top-small-padding  { 
+  padding: 2.5rem  1.25rem 0  1.25rem;
+}
+.float-left {
+  float: left;
+}
+.block-bordered {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.padding {
+  padding: 1.25rem!important;
+}
+.padding-2x {
+  padding: 2.5rem!important;
+}
+.padding-3x {
+  padding: 80px!important;
+}
+.full-width:after {
+clear:both;
+content:".";
+display:block;
+height:0;
+line-height:0;
+visibility:hidden;
+}
+.center {
+  display: block!important;
+}
+
+/* Margins */
+.margin-top {
+  margin-top: 1.25rem !important;
+}
+.margin-left {
+  margin-left: 1.25rem !important;
+}
+.margin-right {
+  margin-right: 1.25rem !important;
+}
+.margin-top-bottom {
+  margin-top: 1.25rem !important;
+  margin-bottom: 1.25rem !important;
+}
+.margin-left-right {
+  margin-left: 1.25rem !important;
+  margin-right: 1.25rem !important;
+} 
+.margin-top-0,.margin-top-10,.margin-top-15,.margin-top-20,.margin-top-30,.margin-top-40,.margin-top-50,.margin-top-60,.margin-top-70,.margin-top-80,
+.margin-bottom-0,.margin-bottom-10,.margin-bottom-15,.margin-bottom-20,.margin-bottom-30,.margin-bottom-40,.margin-bottom-50,.margin-bottom-60,.margin-bottom-70,.margin-bottom-80,
+.margin-top-bottom-0,.margin-top-bottom-10,.margin-top-bottom-15,.margin-top-bottom-20,.margin-top-bottom-30,.margin-top-bottom-40,.margin-top-bottom-50,.margin-top-bottom-60,.margin-top-bottom-70,.margin-top-bottom-80 {display: block;}
+.margin-top-0 {margin-top: 0 !important;}
+.margin-top-10 {margin-top: 10px !important;}
+.margin-top-15 {margin-top: 15px !important;} 
+.margin-top-20 {margin-top: 20px !important;} 
+.margin-top-30 {margin-top: 30px !important;} 
+.margin-top-40 {margin-top: 40px !important;}
+.margin-top-50 {margin-top: 50px !important;}
+.margin-top-60 {margin-top: 60px !important;}
+.margin-top-70 {margin-top: 70px !important;}
+.margin-top-80 {margin-top: 80px !important;}
+.margin-bottom-0 {margin-bottom: 0 !important;}
+.margin-bottom-10 {margin-bottom: 10px !important;}
+.margin-bottom-15 {margin-bottom: 15px !important;} 
+.margin-bottom-20 {margin-bottom: 20px !important;} 
+.margin-bottom-30 {margin-bottom: 30px !important;} 
+.margin-bottom-40 {margin-bottom: 40px !important;}
+.margin-bottom-50 {margin-bottom: 50px !important;}
+.margin-bottom-60 {margin-bottom: 60px !important;}
+.margin-bottom-70 {margin-bottom: 70px !important;}
+.margin-bottom-80 {margin-bottom: 80px !important;}
+.margin-top-bottom-0 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.margin-top-bottom-10 {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+.margin-top-bottom-15 {
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+} 
+.margin-top-bottom-20 {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+} 
+.margin-top-bottom-30 {
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+} 
+.margin-top-bottom-40 {
+  margin-top: 40px !important;
+  margin-bottom: 40px !important;
+}
+.margin-top-bottom-50 {
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+}
+.margin-top-bottom-60 {
+  margin-top: 60px !important;
+  margin-bottom: 60px !important;
+} 
+.margin-top-bottom-70 {
+  margin-top: 70px !important;
+  margin-bottom: 70px !important;
+} 
+.margin-top-bottom-80 {
+  margin-top: 80px !important;
+  margin-bottom: 80px !important;
+}
+
+.margin-left-0 {margin-left: 0 !important;}
+.margin-left-10 {margin-left: 10px !important;}
+.margin-left-15 {margin-left: 15px !important;} 
+.margin-left-20 {margin-left: 20px !important;} 
+.margin-left-30 {margin-left: 30px !important;} 
+.margin-left-40 {margin-left: 40px !important;}
+.margin-left-50 {margin-left: 50px !important;}
+.margin-left-60 {margin-left: 60px !important;}
+.margin-left-70 {margin-left: 70px !important;}
+.margin-left-80 {margin-left: 80px !important;}
+.margin-right-0 {margin-right: 0 !important;}
+.margin-right-10 {margin-right: 10px !important;}
+.margin-right-15 {margin-right: 15px !important;} 
+.margin-right-20 {margin-right: 20px !important;} 
+.margin-right-30 {margin-right: 30px !important;} 
+.margin-right-40 {margin-right: 40px !important;}
+.margin-right-50 {margin-right: 50px !important;}
+.margin-right-60 {margin-right: 60px !important;}
+.margin-right-70 {margin-right: 70px !important;}
+.margin-right-80 {margin-right: 80px !important;}    
+
+/* Carousel */
+/*.owl-theme .owl-controls {
+  margin-top: 0;
+}*/
+.owl-carousel .owl-nav div {
+  filter: Alpha(Opacity=50);
+  opacity: 0.5;
+  transition: all 0.20s linear 0s;
+  -o-transition: all 0.20s linear 0s;
+  -ms-transition: all 0.20s linear 0s;
+  -moz-transition: all 0.20s linear 0s;
+  -webkit-transition: all 0.20s linear 0s;
+}
+.owl-carousel .owl-nav div:hover {
+  filter: Alpha(Opacity=100);
+  opacity: 1;
+}
+.owl-carousel .owl-dots {
+  text-align: center;
+}
+.owl-carousel .owl-dot {
+  display: inline-block;
+}
+.owl-carousel .owl-dot span {
+  background: #7697a2 none repeat scroll 0 0;
+  border-radius: 0;
+  display: block;
+  height: 1px;
+  margin: 0 1px;
+  width: 30px;
+  filter: Alpha(Opacity=50);
+  opacity: 0.5;
+  transition: all 0.20s linear 0s;
+  -o-transition: all 0.20s linear 0s;
+  -ms-transition: all 0.20s linear 0s;
+  -moz-transition: all 0.20s linear 0s;
+  -webkit-transition: all 0.20s linear 0s;
+}
+.owl-carousel .owl-dot.active span {
+  filter: Alpha(Opacity=100);
+  opacity: 1;
+}
+.owl-carousel .owl-nav div {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  color: #7697a2!important;
+  border: 1px solid #7697a2;
+  border-radius: 0;
+  font-family: mfg;
+  height: 40px;
+  line-height: 40px;
+  margin-top: -20px;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  top: 50%;    
+  width: 40px;
+}
+.carousel-bottom-arrows.owl-carousel .owl-nav div {
+  bottom: 0;
+  top: auto;
+}
+.owl-carousel .owl-nav .owl-prev {
+  left: 0;    
+}
+.owl-carousel .owl-nav .owl-next {
+  right: 0;
+}
+.carousel-nav-white.owl-carousel .owl-dots span {
+  background: #fff none repeat scroll 0 0;
+}
+.carousel-nav-white.owl-carousel .owl-nav div {
+  color: #fff!important;
+  border: 1px solid #fff;
+}
+.carousel-main .carousel-content {
+  bottom: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+}
+.owl-dots {
+  margin-top: 0.625rem;
+} 
+.carousel-main .owl-dots {
+  bottom: 0;
+  padding: 1.25rem 0;
+  position: absolute;
+  width: 100%;
+}
+/* Typography */
+.text-uppercase {
+  text-transform: uppercase;
+  line-height: 1;
+}
+.text-line-height-1 {
+  line-height: 1;
+}
+/* Containers */ 
+.section  { 
+  padding: 7rem 1.25rem;
+}
+.section-top-padding  { 
+  padding: 7rem 1.25rem 0  1.25rem;
+}
+.section-block { 
+  padding: 7rem 2.5rem;
+}
+.section-block-2x { 
+  padding: 7rem 5rem;
+}
+.text-padding {
+  display: inline-block !important;
+  padding: 15px 20px;
+}
+.text-padding-small {
+  display: inline-block !important;
+  padding: 7px 10px;
+}               
+
+@media screen and (max-width:768px) {
+  .section-block-2x { 
+    padding: 7rem 2.5rem;
+  }
+  .padding-2x.logo {
+    padding: 14px 0 14px 45px !important;
+  }
+}  
+.margin-left-150 {
+  margin-left: 150px;
+}
+.margin-top-130 {
+  margin-top: 130px!important;
+}
+
+body, p, li, a { 
+  font-weight: 400;
+  font-family: "Barlow"; 
+  font-size: 1.1rem;
+  color: #ffffff;  
+} 
+.background-white, .background-white p, a.background-white, .background-white a, .background-white a:link, .background-white a:visited, .background-white a:hover, .background-white a:active {
+  color: #999;
+}
+h1, .h1 {
+  font-weight: 100;
+  font-family: "Barlow";
+  font-size: 50px;
+}
+h2, h3, h4, h5, h6, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: 400;
+  font-family: "Barlow";
+}
+.text-extra-thin {font-weight: 100;}
+.text-thin {font-weight: 300;}
+b, strong, .text-strong {font-weight: 700;}
+.text-extra-strong {font-weight: 800;}
+
+.text-drop-cap {
+  font-size: 75px;
+  line-height: 55px;
+  padding-right: 10px;
+  padding-top: 10px;
+  font-weight: 700;
+  color: #454545;
+}
+nav {
+  border-bottom: 0;
+  padding: 25px 0;
+  position: relative;
+  z-index: 2;
+}
+.logo img {
+  margin: 0;
+  width: 203px;
+  position: relative;
+}
+.top-nav li {
+  padding: 1.5rem 0;
+} 
+.top-nav li a {
+  color: #fff;
+  font-weight: 700;
+  padding: 1rem 1.3rem;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  transition: all 0.20s linear 0s;
+-o-transition: all 0.20s linear 0s;
+-ms-transition: all 0.20s linear 0s;
+-moz-transition: all 0.20s linear 0s;
+-webkit-transition: all 0.20s linear 0s;
+} 
+
+.top-nav ul ul {
+  background: #fff none repeat scroll 0 0;
+}
+.top-nav li ul li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.top-nav li ul li:last-child {
+  border-bottom: 0;
+}
+.top-nav li ul li a, .background-white .top-nav li ul li a, .top-nav .active-item li a {
+  background: #fff none repeat scroll 0 0;
+  color: rgba(0,0,0, 0.75);
+}
+/* Carousel */
+.owl-dots {
+  margin-top: 1.25rem;
+}
+.owl-carousel .owl-dot span { 
+  background: #434343;
+  height: 15px;
+  margin: 0 1px;
+  width: 15px;
+  border-radius: 0;
+  filter: Alpha(Opacity=30);
+  opacity: 0.3;  
+}
+.background-dark .owl-carousel .owl-dot span {
+  background: #fff;
+}
+.owl-carousel.text-left .owl-dots {
+    text-align: left;
+}
+.owl-carousel .owl-nav div {
+  border: 0 none;
+  color: #C9C9C9 !important;
+  font-family: sli;
+  font-size: 20px;
+  height: auto;
+  line-height: 0;
+  width: auto;
+}
+.owl-carousel .owl-nav .owl-prev {
+  left: 1.25rem;
+}
+.owl-carousel .owl-nav .owl-next {
+  right: 1.25rem;
+}
+.carousel-nav-white.owl-carousel .owl-nav div {
+border: 0;
+}
+.carousel-main .owl-item img.arrow-object {
+  width: 100% !important;
+}
+.carousel-main .owl-dots {
+  padding: 1.25rem;
+  width: auto;
+}
+.carousel-fade-transition .item {
+    padding: 190px 0;
+}
+
